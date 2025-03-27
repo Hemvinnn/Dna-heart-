@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HEART1</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Hey, you are amazing!</h1>
+  <p>Just wanted to share this little heart with you 💜</p>
+  
+ 
+  <canvas id="heart"></canvas>
+
+  
+  <p><a href="https://www.example.com" target="_blank" id="special-link">Click here for something special 💖</a></p>
+
+  <script src="./script.js"></script>
+</body>
+</html>

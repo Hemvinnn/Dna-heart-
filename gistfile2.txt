@@ -1,0 +1,44 @@
+body {
+  background-color: #6A0DAD; /* Soft purple background */
+  color: white; /* White text color for contrast */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+
+canvas {
+  border: 5px solid #FF69B4; /* Soft pink border around the canvas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #FF69B4; /* Pink color for the title */
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+a {
+  color: #FF6347;  /* Bright pink color for the link */
+  font-size: 1.5em;
+  text-decoration: none;  /* Removes underline */
+  padding: 10px;
+  border: 2px solid #FF6347;
+  border-radius: 8px;
+}
+
+a:hover {
+  background-color: #FF6347; /* Change background on hover */
+  color: white; /* Change text color when hovering */
+  cursor: pointer;
+}
